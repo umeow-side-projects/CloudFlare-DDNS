@@ -1,0 +1,14 @@
+{
+    "api_token": "api_token_here",
+    "subdomains": [
+        {
+            "domain": "umeow.eu.org",
+            "name": "@"
+        },
+        {
+            "domain": "umeow.eu.org",
+            "name": "test",
+            "proxied": false
+        }
+    ]
+}
