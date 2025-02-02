@@ -87,7 +87,7 @@ def main(config_path) -> None:
         
         if subdomain['name'] == '@':
             subdomains[subdomain['domain']][f'{subdomain['domain']}'] = {
-                'name': f'{subdomain['name']}.{subdomain['domain']}',
+                'name': f'{subdomain['domain']}',
                 'proxied': subdomain.get('proxied', False)
             }
         else:
